@@ -1,6 +1,5 @@
 import OpenAI from "openai";
 
-// Initialize OpenAI with OpenRouter base URL
 const openai = new OpenAI({
   apiKey: process.env.OPENROUTER_API_KEY || "",
   baseURL: "https://openrouter.ai/api/v1"
@@ -57,7 +56,7 @@ export async function evaluateJoke(joke: string) {
     
     const text = result.choices[0].message.content || "";
     
-    // Extract JSON from the response
+    
     const jsonMatch = text.match(/\{[\s\S]*\}/);
     if (jsonMatch) {
       return JSON.parse(jsonMatch[0]);
