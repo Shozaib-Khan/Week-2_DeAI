@@ -14,7 +14,7 @@ This project is a Next.js application that generates customized jokes using AI. 
 - React
 - TypeScript
 - Tailwind CSS
-- OpenRouter API (with DeepSeek R1 Zero model)
+- OpenRouter API (with Gemini 2.0 flash)
 
 ## Getting Started
 
@@ -65,6 +65,6 @@ npm run dev
 MIT
 
 ## Acknowledgments
-- DeepSeek R1 Zero model via OpenRouter
+- Gemini 2.0 flash model via OpenRouter
 - Next.js team for the application framework
 
