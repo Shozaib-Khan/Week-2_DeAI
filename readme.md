@@ -68,8 +68,3 @@ MIT
 - DeepSeek R1 Zero model via OpenRouter
 - Next.js team for the application framework
 
-Citations:
-[1] https://pplx-res.cloudinary.com/image/upload/v1742186459/user_uploads/pPYfbLipkoJcMbA/image.jpg
-
----
-Answer from Perplexity: pplx.ai/share
